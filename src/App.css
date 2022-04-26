@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.section-single-movie {
+  background-color: lavenderblush;
+}
+
+.section-single-movie .container {
+  width: 95%;
+  /* height: calc(100vh - 154px); */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.section-single-movie .image-holder {
+  position: relative;
+  width: fit-content;
+  height: 70vh;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-right: 40px;
+}
+
+.section-single-movie img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.section-single-movie .content-single-movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  margin-top: 60px;
+  width: 50%;
+}
+
+.content-single-movie .title-single-movie {
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: rgb(35, 35, 35);
+}
+
+.content-single-movie .rate-single-movie {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 6px 0 20px 4px;
+}
+
+.rate-single-movie>span {
+  color: crimson;
+}
+
+.description-single-movie {
+  font-size: 18px;
+  letter-spacing: 1.4px;
+  font-family: -apple-system, "Titillium Web";
+  margin-bottom: 20px;
+}
+
+.content-single-movie button {
+  width: fit-content;
+  padding: 8px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.activated {
+  background-color: crimson;
+}
+
+.login-first {
+  color: red;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  margin: 10px 0 10px;
+  text-decoration: underline;
+}
+
+.nothing-inbag {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  font-size: 40px;
+  font-family: Titillium Web;
+  color: red;
+}
+
+.dashboard {
+  position: relative;
+  min-height: calc(100vh - 147px);
+}

@@ -1,0 +1,74 @@
+.card {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   border-radius: 8px;
+   overflow: hidden;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   transition: 0.4s;
+}
+
+.card .card-image {
+   width: 100%;
+   /* object-fit: ; */
+   transition: 0.4s;
+}
+
+.card .contentBox {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   padding: 8px;
+   background-color: #fff;
+   height: 60%;
+   transform: translateY(100%);
+   transition: 0.4s;
+}
+
+.card:hover {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card:hover .card-image {
+   transform: rotate(40deg) scale(1.6);
+}
+
+.card:hover .contentBox {
+   transform: translateY(0);
+}
+
+.card .contentBox h5 {
+   font-size: 18px;
+   letter-spacing: 1.2px;
+   font-weight: 600px;
+   /* font-family: ; */
+   color: crimson;
+   padding: 4px 0 6px 0;
+}
+
+.card .contentBox p {
+   font-size: 16px;
+   letter-spacing: 1.4px;
+   font-weight: 500px;
+   /* font-family: ; */
+   color: black;
+}
+
+/* .card .contentBox .link-single-movie {
+   padding: 5px 9px;
+   font-size: 22px;
+   font-weight: 600;
+   letter-spacing: 1.4px;
+   border-radius: 8px;
+   margin-top: 20px;
+   outline: none;
+   border: none;
+   background-color: crimson;
+   color: #fff;
+   transform: translateX(0);
+   transition: 0.5s ease-in-out;
+}
+
+.card:hover .contentBox .link-single-movie {
+   transform: translateX(50%);
+} */

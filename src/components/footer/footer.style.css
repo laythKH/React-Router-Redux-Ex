@@ -1,0 +1,14 @@
+.footer {
+   display: flex;
+   justify-content: center;
+   background-color: #424242;
+}
+
+.footer h4 {
+   padding: 15px 0;
+   font-size: 20px;
+   color: #fafafa;
+   letter-spacing: 1.4px;
+   font-family: Titillium Web;
+   font-weight: 600;
+}
