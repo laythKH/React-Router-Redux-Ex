@@ -33,7 +33,7 @@ function App() {
           </Route>
           <Route path='tvshows' element={<SharedTVshowLayout />}>
             <Route index element={<TvShow />} />
-            <Route path=':movieId' element={<SingleItem title={'series'} />} />
+            <Route path=':movieId' element={<SingleItem title={'tvshows'} />} />
           </Route>
           <Route path='login' element={<Login />} />
           <Route path='dashboard' element={<Dashboard />} />

@@ -13,6 +13,3 @@ export const infoSlice = createSlice({
 })
 
 export default infoSlice.reducer
-
-
-// , collection: [], name: '', email: '', isLogged: false

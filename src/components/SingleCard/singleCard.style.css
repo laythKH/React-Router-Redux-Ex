@@ -10,7 +10,6 @@
 
 .card .card-image {
    width: 100%;
-   /* object-fit: ; */
    transition: 0.4s;
 }
 
@@ -41,7 +40,6 @@
    font-size: 18px;
    letter-spacing: 1.2px;
    font-weight: 600px;
-   /* font-family: ; */
    color: crimson;
    padding: 4px 0 6px 0;
 }
@@ -50,7 +48,6 @@
    font-size: 16px;
    letter-spacing: 1.4px;
    font-weight: 500px;
-   /* font-family: ; */
    color: black;
 }
 

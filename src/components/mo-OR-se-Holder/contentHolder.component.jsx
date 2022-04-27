@@ -6,8 +6,6 @@ import './contentHolder.style.css'
 
 function ContentHolder({ info, title, pathAdd }) {
 
-   console.log(pathAdd)
-
    return (
       <div className="content-holder-margin">
          {title ? <SectionTitle title={title} /> : null}

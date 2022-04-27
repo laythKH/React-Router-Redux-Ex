@@ -7,12 +7,11 @@ import ContentHolder from "../components/mo-OR-se-Holder/contentHolder.component
 
 function Home() {
    const webData = useSelector((state) => state.info.value);
-
    const { movies, series } = webData;
 
+   // here i reduce the number of element that i want to show
    const movie = movies.filter((singleMovie) => singleMovie.id < 5);
    const serie = series.filter((singleSeries) => singleSeries.id < 105);
-
 
    return (
       <>

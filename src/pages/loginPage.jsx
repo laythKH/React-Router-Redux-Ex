@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { login } from "../features/users"
-// import { useSelector } from "react-redux";
+import { login } from "../features/users";
+
+
 const Login = () => {
    const [name, setName] = useState('');
    const [email, setEmail] = useState('');
    const navigate = useNavigate()
-   // const data = useSelector((state) => state.info.value);
    const dispatch = useDispatch()
 
    const handleSubmit = async (e) => {
@@ -17,7 +17,7 @@ const Login = () => {
          return
       }
       dispatch(login({ name: name, email: email, isLogged: true }))
-      navigate('/dashboard');
+      navigate('/');
    }
 
 
@@ -27,28 +27,28 @@ const Login = () => {
    return (
       <section className="login-form">
          <div className="container">
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="form">
                <h5 className="form-title">Login</h5>
-               <div>
+               <div className="field">
                   <label className="lable-name">name</label>
                   <input
                      type='name'
                      id='name'
                      value={name}
                      onChange={(e) => setName(e.target.value)}
-                     placeholder='Input Your Name'
-                     className="input-name"
+                     placeholder='Name'
+                     className="input-form"
                   />
                </div>
-               <div>
-                  <label className="lable-email">email</label>
+               <div className="field">
+                  <label className="lable-name">email</label>
                   <input
                      type='email'
                      id='email'
                      value={email}
                      onChange={(e) => setEmail(e.target.value)}
-                     placeholder='xyz@blalba.com...'
-                     className="input-email"
+                     placeholder='welwelwel@blalba.com...'
+                     className="input-form"
                   />
                </div>
                <button type="submit" className="submit-login">login</button>

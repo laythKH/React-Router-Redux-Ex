@@ -17,10 +17,14 @@ function Navbar() {
             <NavLink to='Movies' className={({ isActive }) => isActive ? "link active" : "link"}>Movies</NavLink>
             <NavLink to='tvshows' className={({ isActive }) => isActive ? "link active" : "link"}>TvShows</NavLink>
          </nav>
-         {isLogged && <NavLink to='dashboard' className={({ isActive }) => isActive ? 'link account active' : 'link account'}><span>MyContent</span></NavLink>}
-         {!isLogged ? <NavLink to='login' className={({ isActive }) => isActive ? "link account active" : "link account"}>Login</NavLink> :
-            <NavLink to='/' className={({ isActive }) => isActive ? "link account active" : "link account"} onClick={() => dispatch(logout())}>logout</NavLink>}
-
+         <div className="margin-auto">
+            {isLogged && <NavLink to='dashboard' className={({ isActive }) => isActive ? 'link account active' : 'link account'}><span>MyContent</span></NavLink>}
+            {!isLogged ?
+               <NavLink to='login' className={({ isActive }) => isActive ? "link account active" : "link account"}>Login</NavLink>
+               :
+               <NavLink to='/' className={({ isActive }) => isActive ? "link account active" : "link account"} onClick={() => dispatch(logout())}>logout</NavLink>
+            }
+         </div>
       </div>
    )
 }

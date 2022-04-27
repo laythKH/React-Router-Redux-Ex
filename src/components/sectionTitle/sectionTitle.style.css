@@ -9,3 +9,24 @@
    text-transform: capitalize;
    color: crimson;
 }
+
+@media (max-width: 896px) {
+   .title {
+      margin-left: 20px;
+      font-size: 35px;
+   }
+}
+
+@media (max-width: 650px) {
+   .title {
+      margin-left: 20px;
+      font-size: 30px;
+   }
+}
+
+@media (max-width: 550px) {
+   .title {
+      margin-left: 20px;
+      font-size: 27px;
+   }
+}

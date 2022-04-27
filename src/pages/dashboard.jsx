@@ -6,11 +6,8 @@ import { useSelector } from "react-redux";
 
 function Dashboard() {
 
-   const watchList = useSelector((state) => state.watchList.value)
-   console.log(watchList)
-
+   const watchList = useSelector((state) => state.watchList.value);
    const checktheList = watchList.length > 0
-   console.log(checktheList)
 
    const displayWatchList = () => {
 
@@ -22,8 +19,6 @@ function Dashboard() {
          return a
       }
    }
-
-
 
    return (
       <>
