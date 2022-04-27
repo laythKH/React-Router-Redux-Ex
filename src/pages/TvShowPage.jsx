@@ -7,7 +7,6 @@ import { useSelector } from "react-redux";
 function TvShow() {
 
    const tvShows = useSelector((state) => state.info.value.series)
-
    console.log(tvShows)
 
    return (

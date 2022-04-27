@@ -12,7 +12,7 @@ import SingleItem from './pages/single-Item';
 
 
 
-import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 
 
 import './App.css';
@@ -29,10 +29,11 @@ function App() {
           <Route index element={<Home />} />
           <Route path='movies' element={<SharedMovisLayout />}>
             <Route index element={<Movies />} />
-            <Route path=':movieId' element={<SingleItem />} />
+            <Route path=':movieId' element={<SingleItem title={'movies'} />} />
           </Route>
           <Route path='tvshows' element={<SharedTVshowLayout />}>
             <Route index element={<TvShow />} />
+            <Route path=':movieId' element={<SingleItem title={'series'} />} />
           </Route>
           <Route path='login' element={<Login />} />
           <Route path='dashboard' element={<Dashboard />} />

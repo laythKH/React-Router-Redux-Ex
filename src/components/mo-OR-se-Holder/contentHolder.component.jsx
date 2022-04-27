@@ -12,7 +12,7 @@ function ContentHolder({ info, title }) {
          <div className="container">
             <div className="content-holder">
                {
-                  info.map((oneMovie) => <SingleCard key={oneMovie.id} oneMovie={oneMovie} />)
+                  info.map((oneSeries) => <SingleCard key={oneSeries.id} oneMovie={oneSeries} />)
                }
             </div>
          </div>

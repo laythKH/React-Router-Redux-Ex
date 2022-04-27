@@ -6,18 +6,21 @@ import { useSelector } from "react-redux"
 import { useDispatch } from 'react-redux'
 import { addItem } from '../features/userWatchList'
 
-function SingleItem() {
-
-   let { movieId } = useParams()
-   const content = useSelector((state) => state.info.value)
+function SingleItem({ title }) {
+   // console.log(title)
+   let { movieId } = useParams();
+   const content = useSelector((state) => state.info.value);
+   // console.log(content)
    const isLogged = useSelector((state) => state.users.value.isLogged);
-   const watchList = useSelector((state) => state.watchList.value)
-   const movies = content.movies
-   const selectedMovie = movies.find((s) => `${s.id}` === movieId)
+   const watchList = useSelector((state) => state.watchList.value);
+   const contentHolder = title === 'movies' ? content.movies : content.series
+   // const movies = content.movies;
+   const selectedMovie = contentHolder.find((s) => `${s.id}` === movieId);
    const { name, description, rate } = selectedMovie;
    const dispatch = useDispatch()
 
 
+   // console.log(contentHolder)
    // console.log(isLogged)
    // console.log(selectedMovie)
 

@@ -366,9 +366,8 @@ let data = {
    ],
    series: [
       {
-         "id": 1,
+         "id": 101,
          "name": "Eternals",
-         "image": "./imgs/movies/1-Eternals.jpg",
          "rate": 6.5,
          "type": [
             "Action",
@@ -379,9 +378,8 @@ let data = {
          "description": "Following the events of Avengers: Endgame (2019), an unexpected tragedy forces the Eternals, ancient aliens who have been living on Earth in secret for thousands of years"
       },
       {
-         "id": 2,
+         "id": 102,
          "name": "Scream",
-         "image": "./imgs/movies/2-Scream.jpg",
          "rate": 7.2,
          "type": [
             "Horror",
@@ -391,9 +389,8 @@ let data = {
          "description": "Twenty-five years after the original series of murders in Woodsboro, a new Ghostface emerges, and Sidney Prescott must return to uncover the truth."
       },
       {
-         "id": 3,
+         "id": 103,
          "name": "Spider-Man: No Way Home",
-         "image": "./imgs/movies/3-Spider-Man.jpg",
          "rate": 8.7,
          "type": [
             "Action",
@@ -404,9 +401,8 @@ let data = {
          "description": "Peter Parker's secret identity is revealed to the entire world. Desperate for help, Peter turns to Doctor Strange to make the world forget that he is Spider-Man.."
       },
       {
-         "id": 4,
+         "id": 104,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -416,9 +412,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 5,
+         "id": 105,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -428,9 +423,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 6,
+         "id": 106,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -440,9 +434,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 7,
+         "id": 107,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -452,9 +445,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 8,
+         "id": 108,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -464,9 +456,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 9,
+         "id": 109,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -476,9 +467,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 10,
+         "id": 110,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -488,9 +478,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 11,
+         "id": 111,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -500,9 +489,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 12,
+         "id": 112,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -512,9 +500,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 13,
+         "id": 113,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -524,9 +511,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 14,
+         "id": 114,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -536,9 +522,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 15,
+         "id": 115,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -548,9 +533,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 16,
+         "id": 116,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -560,9 +544,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 16,
+         "id": 117,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
@@ -572,9 +555,8 @@ let data = {
          "description": "Kate Dibiasky (Jennifer Lawrence), an astronomy grad student, and her professor Dr. Randall Mindy (Leonardo DiCaprio) make an astounding discovery of a comet orbiting within the solar system"
       },
       {
-         "id": 17,
+         "id": 118,
          "name": "Don't Look Up",
-         "image": "./imgs/movies/4-Don't Look Up.jpg",
          "rate": 7.2,
          "type": [
             "Drama",
