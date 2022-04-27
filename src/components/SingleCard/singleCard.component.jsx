@@ -25,7 +25,7 @@ function SingleCard({ oneMovie, pathAdd }) {
             <p>{smallText}</p>
             {
                bool ?
-                  <Link to={`/${oneMovie.title}/${oneMovie.id}`}> Navigate </Link>
+                  <Link to={`/${oneMovie.title}/${oneMovie.id}`} className="link-single-movie"> take Me To Movie </Link>
                   :
                   <Link to={`${urlGuide}${oneMovie.id}`} className="link-single-movie">More Info</Link>
             }
