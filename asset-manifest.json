@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/React-Router-Redux-Ex/static/css/main.f0b0f5ec.css",
-    "main.js": "/React-Router-Redux-Ex/static/js/main.fc8a0575.js",
+    "main.js": "/React-Router-Redux-Ex/static/js/main.b795f9cf.js",
     "static/js/787.9a4df09f.chunk.js": "/React-Router-Redux-Ex/static/js/787.9a4df09f.chunk.js",
     "static/media/poster-image.jpg": "/React-Router-Redux-Ex/static/media/poster-image.965bcd9be9f39245bf59.jpg",
     "static/media/landingBack.png": "/React-Router-Redux-Ex/static/media/landingBack.b5a5b3662ac604d4f766.png",
     "index.html": "/React-Router-Redux-Ex/index.html",
     "main.f0b0f5ec.css.map": "/React-Router-Redux-Ex/static/css/main.f0b0f5ec.css.map",
-    "main.fc8a0575.js.map": "/React-Router-Redux-Ex/static/js/main.fc8a0575.js.map",
+    "main.b795f9cf.js.map": "/React-Router-Redux-Ex/static/js/main.b795f9cf.js.map",
     "787.9a4df09f.chunk.js.map": "/React-Router-Redux-Ex/static/js/787.9a4df09f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0b0f5ec.css",
-    "static/js/main.fc8a0575.js"
+    "static/js/main.b795f9cf.js"
   ]
 }
