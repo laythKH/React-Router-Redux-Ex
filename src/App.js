@@ -12,27 +12,18 @@ import SingleItem from './pages/single-Item';
 
 
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 
 
 import './App.css';
 
 
 
-// const initialStore = {
-//   movies: data.movies,
-//   series: data.series,
-//   name: '',
-//   email: '',
-//   isLoggedIn: false
-// }
-
-
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename='/'>
       <Routes>
         <Route path='/' element={<SharedLayout />}>
           <Route index element={<Home />} />
@@ -47,7 +38,7 @@ function App() {
           <Route path='dashboard' element={<Dashboard />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
