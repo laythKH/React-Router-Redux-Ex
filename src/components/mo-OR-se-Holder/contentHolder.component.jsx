@@ -4,7 +4,9 @@ import SingleCard from "../SingleCard/singleCard.component"
 
 import './contentHolder.style.css'
 
-function ContentHolder({ info, title }) {
+function ContentHolder({ info, title, pathAdd }) {
+
+   console.log(pathAdd)
 
    return (
       <div className="content-holder-margin">
@@ -12,7 +14,7 @@ function ContentHolder({ info, title }) {
          <div className="container">
             <div className="content-holder">
                {
-                  info.map((oneSeries) => <SingleCard key={oneSeries.id} oneMovie={oneSeries} />)
+                  info.map((oneSeries) => <SingleCard key={oneSeries.id} oneMovie={oneSeries} pathAdd={pathAdd} />)
                }
             </div>
          </div>
